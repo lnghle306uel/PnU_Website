@@ -1,0 +1,56 @@
+:root {
+    /*product*/
+    --p-priceColor :#F34646;
+    --p-cartColor  :#DC8655;
+    --p-btnGreen   :#85BB72; 
+    --p-btnBlue    :#2C326D;
+
+    /*ink*/
+    --ink02         :#666666;
+    --ink03         :#B2B2B2;
+    --ink05         :#F2F2F2;
+
+    /*primary*/
+    --primaryBlack  :#000000;
+    --primaryWhite  :#FFFFFF;
+    --primaryYellow :#F2CB05;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 100%;
+    line-height: 1.2rem;
+    box-sizing: border-box;
+}
+
+.gird{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-left: -12px;
+}
+
+/*test*/
+.grid__column--2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.6667%;
+}
+.grid__column--10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3333%;
+}
