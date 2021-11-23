@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="Cart%28empty%29.html" />
     <Content Include="CSS\Login.css" />
-    <Content Include="home_style.css" />
+    <Content Include="CSS\home_style.css" />
     <Content Include="Images\home_banner_1.png" />
     <Content Include="Images\home_banner_2.png" />
     <Content Include="Images\home_banner_3.png" />
