@@ -1,18 +1,23 @@
+.banner{
+    width: 100%;
+    text-align: center;
+}
 .banner__img { 
            width: 90rem;
         }
-
 /*category*/
 .category {
     background-color: var(--primaryWhite);
-    box-shadow: 0px 10px 10px 0 rgba(153,153, 153, 0.2);
+    box-shadow: 0px 1rem 1rem 0 rgba(153,153, 153, 0.2);
     border-radius: 2px;
+    text-align: left;
 }  
     .category__heading {
         background-color: var(--ink02);
         color: white;
         font-size: 1.7rem;
         padding: 12px 16px;
+        margin-top: 0;
 
     }
     /* .category__heading--icon {
@@ -61,6 +66,80 @@
     }
 
 /*productfilter*/
-productfilter {
+.productfilter{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
+    .arrangefilter{
+        display: flex;
+        align-items: center;
+    }
+    .arrangefilter__select{
+        position: relative;
+        margin-left: 1rem;
+        min-width: 11rem;
+        display: flex;
+        padding: 0 12px;
+        min-height: 2rem;
+        align-items: center;
+        border-radius: 2px;
+        justify-content: space-between;
+        background-color: var(--ink05);
+    }
+    .arrangefilter__select:hover .select-input__list{
+      display: block;
+    }
+    .arrangefilter__select--label{
+        font-size: 1.1rem;
+    }
+    .arrangefilter__lable{
+        font-size: 1.4rem;
+    }
+    .pagefilter{
+        display: flex;
+        align-items: center;
+    }
+    .pagefilter__btn--img{
+        width: 1.2rem;
+        height: 1.4rem;
+        margin-bottom: 0;
+        margin-left: 2px;
+        margin-top: 5px;
+    }
+    .pagefilter__number{
+        font-size: 1.4rem;
+    }
+    .pagefilter__number--array{
+        color: var(--ink03);
+    }
+    .productfilter__lable__img{
+        width: 1.1rem;
+        height: 0.5rem;
+    }
+    .select-input__list{
+        padding-inline-start: 0px;
+        margin-left: 0;
+        position:absolute;
+        background-color: var(--primaryWhite);
+        top: 1rem;
+        left: 0px;
+        right: 0px;
+        border-radius: 2px;
+        list-style: none;
+        box-shadow: 0px 0.5rem 0.5rem 0 rgba(153,153, 153, 0.2);
+        display: none;
+    }
+    .select-input__link{
+        margin-inline-start: 1.5rem;
+        text-decoration: none;
+        color: var(--primaryBlack);
+    }
+    .select-input__link:hover{
+        color:var(--p-cartColor);
+    }
+    .select-input__item{
+        padding: 5px;
+        border-bottom: 0.8px solid rgba(0,0, 0, 0.08);
+    }

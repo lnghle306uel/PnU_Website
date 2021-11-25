@@ -6,8 +6,10 @@
     --p-btnBlue    :#2C326D;
 
     /*ink*/
+    --ink01         :#191D21;
     --ink02         :#666666;
     --ink03         :#B2B2B2;
+    --ink04         :#E5E5E5;
     --ink05         :#F2F2F2;
 
     /*primary*/
@@ -26,14 +28,8 @@ html {
     box-sizing: border-box;
 }
 
-.gird{
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid__full-width {
-    width: 100%;
+.product__content{
+    padding: 1.5rem;
 }
 
 .grid__row{
