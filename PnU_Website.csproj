@@ -67,7 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Cart%28empty%29.html" />
+    <Content Include="cart%28empty%29.html" />
+    <Content Include="cart.html" />
+    <Content Include="CSS\cart_style.css" />
     <Content Include="CSS\header-style.css" />
     <Content Include="CSS\Login.css" />
     <Content Include="CSS\home_style.css" />
@@ -85,6 +87,21 @@
     <Content Include="Images\Login.png" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\mail_icon.png" />
+    <Content Include="Images\Products\sp1.jpg" />
+    <Content Include="Images\Products\sp10.jpg" />
+    <Content Include="Images\Products\sp11.jpg" />
+    <Content Include="Images\Products\sp12.jpg" />
+    <Content Include="Images\Products\sp13.jpg" />
+    <Content Include="Images\Products\sp14.jpg" />
+    <Content Include="Images\Products\sp15.jpg" />
+    <Content Include="Images\Products\sp16.jpg" />
+    <Content Include="Images\Products\sp3.jpg" />
+    <Content Include="Images\Products\sp4.jpg" />
+    <Content Include="Images\Products\sp5.jpg" />
+    <Content Include="Images\Products\sp6.jpg" />
+    <Content Include="Images\Products\sp7.jpg" />
+    <Content Include="Images\Products\sp8.jpg" />
+    <Content Include="Images\Products\sp9.jpg" />
     <Content Include="Images\right_arrow_icon.png" />
     <Content Include="Images\search_icon.png" />
     <Content Include="index.html" />
