@@ -6,10 +6,8 @@
     --p-btnBlue    :#2C326D;
 
     /*ink*/
-    --ink01         :#191D21;
     --ink02         :#666666;
     --ink03         :#B2B2B2;
-    --ink04         :#E5E5E5;
     --ink05         :#F2F2F2;
 
     /*primary*/
@@ -32,11 +30,21 @@ html {
     padding: 1.5rem;
 }
 
+.gird{
+    min-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
 .grid__row{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    padding: 12px;
     margin-left: -12px;
-    margin-left: -12px;
+    margin-right: -12px;
 }
 
 /*test*/
@@ -49,4 +57,10 @@ html {
     padding-left: 12px;
     padding-right: 12px;
     width: 83.3333%;
+}
+
+.grid__column--2-5{
+    width: 25%;
+    /* padding-right: 12px; */
+    text-align: center;
 }
