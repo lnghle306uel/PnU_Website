@@ -67,6 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\base.css" />
+    <Content Include="assets\css\color.css" />
+    <Content Include="assets\css\font.css" />
+    <Content Include="assets\css\main.css" />
+    <Content Include="assets\images\banner.png" />
+    <Content Include="assets\images\home1_sp1.png" />
+    <Content Include="assets\images\home1_sp2.png" />
+    <Content Include="assets\images\home1_sp3.png" />
+    <Content Include="assets\images\home1_sp4.png" />
+    <Content Include="assets\images\ic_cart.png" />
+    <Content Include="assets\images\ic_danhmuc.png" />
+    <Content Include="assets\images\ic_menu-filter.png" />
+    <Content Include="assets\images\ic_page.png" />
     <Content Include="cart%28empty%29.html" />
     <Content Include="cart.html" />
     <Content Include="CSS\cart_style.css" />
@@ -106,12 +119,24 @@
     <Content Include="Images\search_icon.png" />
     <Content Include="index.html" />
     <Content Include="Login.html" />
+    <Content Include="Trangsp1.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\font\roboto-font\Roboto-Black.ttf" />
+    <Content Include="assets\font\roboto-font\Roboto-Bold.ttf" />
+    <Content Include="assets\font\roboto-font\Roboto-BoldItalic.ttf" />
+    <Content Include="assets\font\roboto-font\Roboto-Italic.ttf" />
+    <Content Include="assets\font\roboto-font\Roboto-Light.ttf" />
+    <Content Include="assets\font\roboto-font\Roboto-LightItalic.ttf" />
+    <Content Include="assets\font\roboto-font\Roboto-Medium.ttf" />
+    <Content Include="assets\font\roboto-font\Roboto-MediumItalic.ttf" />
+    <Content Include="assets\font\roboto-font\Roboto-Regular.ttf" />
+    <Content Include="assets\font\roboto-font\Roboto-Thin.ttf" />
+    <Content Include="assets\font\roboto-font\Roboto-ThinItalic.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

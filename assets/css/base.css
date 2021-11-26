@@ -1,20 +1,3 @@
-:root {
-    /*product*/
-    --p-priceColor :#F34646;
-    --p-cartColor  :#DC8655;
-    --p-btnGreen   :#85BB72; 
-    --p-btnBlue    :#2C326D;
-
-    /*ink*/
-    --ink02         :#666666;
-    --ink03         :#B2B2B2;
-    --ink05         :#F2F2F2;
-
-    /*primary*/
-    --primaryBlack  :#000000;
-    --primaryWhite  :#FFFFFF;
-    --primaryYellow :#F2CB05;
-}
 
 * {
     box-sizing: inherit;
