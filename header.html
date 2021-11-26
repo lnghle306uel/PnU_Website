@@ -7,38 +7,43 @@
 </head>
 <body>
     <nav>
-        <div class="menu-icon">
-            <span class="fas fa-bars"></span>
-        </div>
         <a href="#" class="logo"><img src="Images/logo.png" height="50" /></a>
-        <ul class="nav-items">
-            <li><a href="#">Trang chủ</a></li>
-            <li><a href="#">Giới thiệu</a></li>
-            <li><a href="#">Sản phẩm</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Liên hệ</a></li>
-        </ul>
-        <div class="search-icon">
-            <span class="fas fa-search"></span>
+        <div class="nav-menu">
+            <a href="#">Trang chủ</a>
+            <a href="#">Giới thiệu</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Sản phẩm
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Sản phẩm cho Chó</a>
+                    <a href="#">Sản phẩm cho Mèo</a>
+                    <a href="#">Đồ chơi chó mèo</a>
+                    <a href="#">Thời trang chó mèo</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Blog
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Blog về Chó</a>
+                    <a href="#">Blog về Mèo</a>
+                </div>
+            </div>
+            <a href="#">Liên hệ</a>
         </div>
-        <div class="cancel-icon">
-            <span class="fas fa-times"></span>
-        </div>
-        <form action="#">
-            <input type="search" class="search-data" placeholder="Tìm kiếm sản phẩm..." required>
-            <button type="submit" class="fas fa-search">
-                <img class="search" src="Images/search_icon.png" width="20" height="20" />
+        <form>
+            <input type="search" class="search" placeholder="Tìm kiếm sản phẩm..." />
+            <button type="submit" class="search-icon">
+                <img src="Images/search_icon.png" height="20" />
             </button>
         </form>
-        <div>
-            <a href="#">
-                <img class="account-icon" src="Images/account_icon.png" height="30" width="30" />
-            </a>
-        </div>
-        <div>
-            <a href="#">
-                <img class="cart-icon" src="Images/cart_icon.png" height="30" width="30" />
-            </a>
+        <div class="account-cart">
+            <a href="#" class="account-icon"><img src="Images/account_icon.png" height="30" /></a>
+            <a href="#" class="cart-icon"><img src="Images/cart_icon.png" height="30" /></a>
         </div>
     </nav>
 </body>
