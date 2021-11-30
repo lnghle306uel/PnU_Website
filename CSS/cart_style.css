@@ -165,7 +165,7 @@
         font-weight: 700;
         margin-top: 20px;
         padding: 0 30px;
-        border: 1px solid transparent
+        border: 1px solid transparent;
     }
 
         .bg-scroll .btn-continue:hover {

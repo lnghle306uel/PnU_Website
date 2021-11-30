@@ -86,6 +86,7 @@
     <Content Include="CSS\header-style.css" />
     <Content Include="CSS\Login.css" />
     <Content Include="CSS\home_style.css" />
+    <Content Include="CSS\payment_style.css" />
     <Content Include="header.html" />
     <Content Include="Images\account_icon.png" />
     <Content Include="Images\cart_icon.png" />
@@ -119,6 +120,7 @@
     <Content Include="Images\search_icon.png" />
     <Content Include="index.html" />
     <Content Include="Login.html" />
+    <Content Include="payment.html" />
     <Content Include="Trangsp1.html" />
     <Content Include="Web.config" />
   </ItemGroup>
